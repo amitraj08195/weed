@@ -1,0 +1,26 @@
+2018-11-16T05:51:22+00:00 CRITICAL Object of class WP_Term could not be converted to string in D:\xampp\htdocs\weed\wp-includes\class-wp-tax-query.php on line 559
+
+2018-11-16T05:54:46+00:00 CRITICAL Object of class WP_Term could not be converted to string in D:\xampp\htdocs\weed\wp-includes\class-wp-tax-query.php on line 559
+
+2018-11-16T05:54:49+00:00 CRITICAL Object of class WP_Term could not be converted to string in D:\xampp\htdocs\weed\wp-includes\class-wp-tax-query.php on line 559
+
+2018-11-16T05:56:42+00:00 CRITICAL Object of class WP_Term could not be converted to string in D:\xampp\htdocs\weed\wp-includes\class-wp-tax-query.php on line 559
+
+2018-11-16T05:58:52+00:00 CRITICAL Object of class WP_Term could not be converted to string in D:\xampp\htdocs\weed\wp-includes\class-wp-tax-query.php on line 559
+
+2018-11-16T06:00:10+00:00 CRITICAL Object of class WP_Term could not be converted to string in D:\xampp\htdocs\weed\wp-includes\class-wp-tax-query.php on line 559
+
+2018-11-16T06:00:42+00:00 CRITICAL Object of class WP_Term could not be converted to string in D:\xampp\htdocs\weed\wp-includes\class-wp-tax-query.php on line 559
+
+2018-11-16T07:01:19+00:00 CRITICAL syntax error, unexpected 'endforeach' (T_ENDFOREACH) in D:\xampp\htdocs\weed\wp-content\themes\e-cannabis\Page_parts\home.php on line 148
+
+2018-11-16T07:01:32+00:00 CRITICAL syntax error, unexpected '>', expecting end of file in D:\xampp\htdocs\weed\wp-content\themes\e-cannabis\Page_parts\home.php on line 148
+
+2018-11-16T07:01:40+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\xampp\htdocs\weed\wp-content\themes\e-cannabis\Page_parts\home.php:142
+Stack trace:
+#0 D:\xampp\htdocs\weed\wp-includes\template-loader.php(74): include()
+#1 D:\xampp\htdocs\weed\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\weed\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\weed\wp-content\themes\e-cannabis\Page_parts\home.php on line 142
+

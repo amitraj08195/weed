@@ -1,0 +1,8 @@
+2018-11-15T11:31:20+00:00 CRITICAL Object of class WP_Term could not be converted to string in D:\xampp\htdocs\weed\wp-includes\taxonomy.php on line 3135
+
+2018-11-15T11:31:48+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in D:\xampp\htdocs\weed\wp-content\themes\e-cannabis\Page_parts\cat.php on line 44
+
+2018-11-15T11:31:56+00:00 CRITICAL Object of class WP_Term could not be converted to string in D:\xampp\htdocs\weed\wp-includes\taxonomy.php on line 3135
+
+2018-11-15T12:08:10+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in D:\xampp\htdocs\weed\wp-content\themes\e-cannabis\Page_parts\cat.php on line 44
+

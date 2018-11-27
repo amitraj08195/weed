@@ -1,0 +1,104 @@
+.full-main {
+    margin: 0;
+    background: url(../images/bg.png) center/cover #232323;
+    font-weight: normal;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size:16px;
+    color: #A68793;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+
+.main  a {
+    text-decoration: none;
+    color: #fff;
+}
+.main  h3 {
+    -webkit-transform: rotate(-45deg) translateY(-30px);
+    transform: rotate(-45deg) translateY(-30px);
+    color: white;
+    width: 100px;
+}
+
+
+.main {    width: 100%;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    position: relative;
+}
+.main .scene {
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+}
+.main .relative {    position: relative;
+    z-index: 13;
+    width: 100%;
+    float: left;
+    margin-top: 10em;
+}
+.main h2 {    color: #fff;
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-shadow: 1px 3px 2px black;
+    font-weight: 500;
+}
+.main .error {
+    color: #fff;
+    font-size: 18vw;    padding-top: 10%;
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+    z-index: 1;
+    position: relative;
+}
+.main .btn { background-color:  #027f19;
+    border: solid 3px #027f19;
+    font-size: 18px; transition: ease-in-out .5s;
+    font-weight: 900;
+    padding: 18px 65px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+.main .btn:hover { background-color: transparent;
+    color: #fff;
+}
+.full-main::after {
+    content: ' ';
+    background: rgba(0, 0, 0, .2);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+@media (max-width:767px) {
+    .main .relative {
+        margin-top: 6em;
+    }
+    .main h2 {
+        color: #fff;
+        font-size: 18px;
+    margin-bottom: 40px}
+    .main .error {
+        font-size: 29vw;
+    }
+    .main .btn {    padding: 7px 13px;
+        font-size: 12px;
+        font-weight: 200;
+    }
+}
+@media (max-width:568px) {
+    .main .btn {
+        padding: 18px 25px;
+    }
+}
+
+
+@media( min-width: 768px) and ( max-width: 991px){.main h2 {
+    font-size: 42px;
+    line-height: 71px;
+    margin-bottom: 40px;}}

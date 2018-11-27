@@ -1,0 +1,13 @@
+2018-11-19T06:37:43+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in D:\xampp\htdocs\weed\wp-content\themes\e-cannabis\taxonomy-product_cat.php on line 72
+
+2018-11-19T06:37:53+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\xampp\htdocs\weed\wp-content\themes\e-cannabis\taxonomy-product_cat.php on line 32
+
+2018-11-19T10:16:39+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in D:\xampp\htdocs\weed\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:676
+Stack trace:
+#0 D:\xampp\htdocs\weed\wp-includes\class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 D:\xampp\htdocs\weed\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\weed\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\weed\wp-admin\admin-ajax.php(100): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown in D:\xampp\htdocs\weed\wp-content\plugins\woocommerce\includes\class-wc-ajax.php on line 676
+
