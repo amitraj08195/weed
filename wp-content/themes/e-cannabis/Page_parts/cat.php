@@ -28,7 +28,7 @@ get_header('one');
 	<div class="container">
 		<div class="wrap">
 			<h2>Products Categories</h2>
-			<div class="col-md-12">
+			<div class="col-md-8">
 				<?php
 				$i=0;
 				$parent_categories =
@@ -63,9 +63,13 @@ get_header('one');
 					</a>
 					<?php $i++; endforeach;?>
 			</div>
-
-
-
+            <div class="col-md-4">
+			<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+                <div id="secondary" class="widget-area" role="complementary">
+					<?php dynamic_sidebar( 'sidebar-1' ); ?>
+                </div>
+			<?php endif; ?>
+            </div>
 
 		</div>
 	</div>

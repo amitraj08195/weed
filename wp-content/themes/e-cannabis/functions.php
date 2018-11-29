@@ -163,3 +163,34 @@ function custom_shop_page_redirect() {
 	}
 }
 add_action( 'template_redirect', 'custom_shop_page_redirect' );
+
+
+
+add_filter( 'woocommerce_form_field', 'bbloomer_checkout_fields_in_label_error', 10, 4 );
+
+function bbloomer_checkout_fields_in_label_error( $field, $key, $args, $value ) {
+	if ( strpos( $field, '</label>' ) !== false && $args['required'] ) {
+		$error = '<span class="error" style="display:none">';
+		$error .= sprintf( __( '%s is a required field.', 'woocommerce' ), $args['label'] );
+		$error .= '</span>';
+		$field = substr_replace( $field, $error, strpos( $field, '</label>' ), 0);
+	}
+	return $field;
+}
+
+
+function wpb_widgets_init() {
+
+	register_sidebar( array(
+		'name' => __( 'Main Sidebar', 'wpb' ),
+		'id' => 'sidebar-1',
+		'description' => __( 'The main sidebar appears on the right on each page except the front page template', 'wpb' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget' => '</aside>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );}
+
+add_action( 'widgets_init', 'wpb_widgets_init' );
+
+

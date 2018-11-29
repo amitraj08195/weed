@@ -318,6 +318,18 @@ get_header();?>
     .woocommerce table.shop_table {
         border: none;
     }
+
+    .woocommerce-checkout p.woocommerce-invalid-required-field span.error {
+        color: #e2401c;
+        display: block !important;
+        font-weight: bold;
+    }
+
+
+    .woocommerce-error{
+
+        display: none;
+    }
 </style>
 <!--<style>-->
 <!--    #about-us .product1 {-->
